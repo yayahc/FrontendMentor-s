@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,12 +16,20 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+    <style>
+      a.equilibrium.active {
+        z-index: 1;
+        color: hsl(178, 100%, 50%);
+      }
+    </style>
+
 </head>
 <body>
   <div class="content">
 
     <div class="header">
-      <a href="#" class="img-equilibrium"><img src="./images/image-equilibrium.jpg" alt="image equilibrium"></a>
+      <a href="#" id="img-equilibrium" class="equilibrium" class="img-equilibrium"><img src="./images/image-equilibrium.jpg" alt="image equilibrium"></a>
       <a href="#" class="equilibrium">Equilibrium #3429</a>
       <p>Our Equilibrium collection promotes balance and calm.</p>
     </div>
@@ -49,4 +59,14 @@
     Coded by <a href="#">Yaya Hc</a>.
   </div>
 </body>
+
+<script>
+$( "a.equilibrium" ).hover(
+  function() {
+    $( this ).toggleClass( "active" ).stop( true, true );
+  }
+);
+</script>
+
+
 </html>
