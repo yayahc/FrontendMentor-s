@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+	font-size: 14px;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Outfit', sans-serif;
+	word-spacing: 1.5px;
+	letter-spacing: 0.4px;
+}
+
+body {
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	background-color: hsl(217, 54%, 11%);
+}
+
+a {
+	color: hsl(228, 45%, 44%);
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+}
+
+.content {
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 12px;
+}
+
+.header {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.header p {
+	color: hsl(215, 51%, 70%);
+	opacity: 1;
+	font-weight: 300;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.header img {
+	width: 87%;
+	border-radius: 5px;	
+}
+
+.equilibrium{
+	text-align: left;
+	display: flex;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.main {
+	justify-content: space-between;
+	display: flex;
+	margin-left: 6%;
+	margin-right: 3%;
+}
+
+.main .ethereum, .main .clock {
+	display: flex;	
+	align-items: center;
+	margin: 0;
+}
+
+.main .ethereum a {	
+	color: hsl(178, 100%, 50%);
+	font-weight: 400;	
+	padding-left: 6px;
+}
+
+.main .ethereum, .main .ethereum img, .main .ethereum a,
+.main .ethereum, .main .clock img, .main .clock a {
+	margin: 0;
+}
+
+.clock p {
+	color: hsl(215, 51%, 70%);
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.footer img {
+	width: 10%;
+	border: 1px solid white;
+	border-radius: 100%;
+}
+
+.footer p {
+	color: hsl(215, 51%, 70%);
+	margin: 0;
+}
+
+.footer p a {
+	margin: 5px;
+}
+
+hr {
+	opacity: 0.15;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
