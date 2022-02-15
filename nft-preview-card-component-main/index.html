@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="script.js"></script>
   
   <title>Frontend Mentor | NFT preview card component</title>
 
@@ -17,19 +18,19 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 
-    <style>
-      a.equilibrium.active {
-        z-index: 1;
-        color: hsl(178, 100%, 50%);
-      }
-    </style>
-
 </head>
 <body>
-  <div class="content">
-
+  <div class="content">     
     <div class="header">
-      <a href="#" id="img-equilibrium" class="equilibrium" class="img-equilibrium"><img src="./images/image-equilibrium.jpg" alt="image equilibrium"></a>
+      <div class="image-place">
+        <a href="#" id="img" class="img-equilibrium">
+          <img src="./images/image-equilibrium.jpg" alt="image equilibrium">
+          <div class="recover">
+            <img src="./images/icon-view.svg">
+          </div>
+        </a>
+      </div>
+
       <a href="#" class="equilibrium">Equilibrium #3429</a>
       <p>Our Equilibrium collection promotes balance and calm.</p>
     </div>
@@ -49,24 +50,14 @@
 
     <div class="footer">
       <img src="./images/image-avatar.png" alt="image avatar">
-      <p>Creation of<a href="">Jules Wyvern</a></p>
+      <p>Creation of<a href="#">Jules Wyvern</a></p>
     </div>
 
   </div>
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Yaya Hc</a>.
-  </div>
+  </div> -->
 </body>
-
-<script>
-$( "a.equilibrium" ).hover(
-  function() {
-    $( this ).toggleClass( "active" ).stop( true, true );
-  }
-);
-</script>
-
-
 </html>
