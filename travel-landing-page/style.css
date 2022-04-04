@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;    
+}
+
+/* ----------------- */
+/* -----Header------ */
+/* ----------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;      
+}
+
+header nav {
+    display: flex;        
+}
+header nav .menu {
+    margin-right: 50px;
+}
+header nav .menu a {
+    text-decoration: none;
+    color: black;    
+    opacity: 0.7;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header nav .menu a:hover {
+    text-decoration: underline;
+}
+header nav .auth {
+    margin-right: 20px;
+    margin-left: -25px;    
+}
+header nav .auth a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+header nav .auth a:hover {
+    text-decoration: underline;
+}
+header nav .auth .sign-up {
+    margin-left: -1px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(1, 1, 63);
+}
+
+/* ----------------- */
+/* -------Main------ */
+/* ----------------- */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 40px;    
+}
+
+main .text h1 {
+    font-size: 60px;
+}
+main .text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+
+main .button .explore {
+    padding: 10px 15px;
+    background-color: rgb(1, 1, 63);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main .button .demo {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+main .image svg {
+    width: 800px;
+    height: 400px;
+}
+
+/* ----------------- */
+/* ------Footer----- */
+/* ----------------- */
+
+footer {
+    display: flex;
+    margin: 10px;
+    padding: 10px;    
+    margin-top: -15px;
+}
